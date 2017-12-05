@@ -197,3 +197,10 @@ button.close {
 .modal-backdrop.show {
   opacity: 0.95;
 }
+
+@media (min-width: 800px) {
+  .modal-dialog {
+      max-width: 780px;
+      margin: 30px auto;
+  }
+}
